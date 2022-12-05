@@ -1,0 +1,16 @@
+def hello(num1, k):
+    if k < 0 or k > len(num1):
+        return 'error'
+    li1 = num1[:k]
+    li2 = li1[::-1]
+    li3 = num1[k:]
+    li4 = li3[::-1]
+    return li2 + li4
+
+
+num1 = []
+for i in range(30):
+    num1.append(random.randint(1, 100))
+print num1
+a = hello(num1,4)
+print a
