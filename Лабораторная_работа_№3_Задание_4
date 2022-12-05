@@ -1,0 +1,11 @@
+#include 
+
+int main(9)
+{
+ int n;
+ 
+ scanf("%d", &n)
+ pyramid(n);
+
+ return 0;
+}
